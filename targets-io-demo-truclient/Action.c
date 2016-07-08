@@ -5,7 +5,7 @@
 Action()
 {
 	lr_start_transaction("Start");
-	truclient_step("1", "Navigate to '54.154.227.103:3001'", "snapshot=Action_1.inf");
+	truclient_step("1", "Navigate to '52.208.180.182:3001'", "snapshot=Action_1.inf");
 	lr_end_transaction("Start",0);
 	lr_start_transaction("Sign in Link");
 	truclient_step("2", "Click on Sign In link", "snapshot=Action_2.inf");
@@ -32,17 +32,18 @@ Action()
 	truclient_step("10", "Click on Articles button", "snapshot=Action_10.inf");
 	lr_start_transaction("List Articles");
 	truclient_step("11", "Click on List Articles link", "snapshot=Action_11.inf");
+	truclient_step("12", "Wait for Posted on Jul 1, 2016... link", "snapshot=Action_12.inf");
 	lr_end_transaction("List Articles",0);
 	lr_start_transaction("Open Article");
-	truclient_step("12", "Click on TruClientarticle link", "snapshot=Action_12.inf");
+	truclient_step("13", "Click on TruClientarticle link", "snapshot=Action_13.inf");
 	lr_end_transaction("Open Article",0);
-	truclient_step("13", "Click on focusable (1)", "snapshot=Action_13.inf");
+	truclient_step("14", "Click on focusable (1)", "snapshot=Action_14.inf");
 	lr_start_transaction("Delete Article");
-	truclient_step("14", "Press OK in confirmation dialog", "snapshot=Action_14.inf");
+	truclient_step("15", "Press OK in confirmation dialog", "snapshot=Action_15.inf");
 	lr_end_transaction("Delete Article",0);
-	truclient_step("15", "Click on demo1 demo1 button", "snapshot=Action_15.inf");
+	truclient_step("16", "Click on demo1 demo1 button", "snapshot=Action_16.inf");
 	lr_start_transaction("Sign out");
-	truclient_step("16", "Click on Signout link", "snapshot=Action_16.inf");
+	truclient_step("17", "Click on Signout link", "snapshot=Action_17.inf");
 	lr_end_transaction("Sign out",0);
 
 	return 0;

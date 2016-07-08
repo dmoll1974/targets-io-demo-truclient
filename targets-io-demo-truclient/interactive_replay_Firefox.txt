@@ -1,68 +1,958 @@
 Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
 Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
-Virtual User Script started at : 2016-07-06 22:05:31
-TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, Browser: Firefox, initialized on 2016/07/06 at 22:05:29 (0000.000s)
+Virtual User Script started at : 2016-07-08 13:40:07
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, Browser: Firefox, initialized on 2016/07/08 at 13:40:06 (0000.000s)
 Running Vuser...
 Starting iteration 1.
 Notify: Transaction "Start" started.
-t=00004432ms: ** 1: Navigate to "54.154.227.103:3001" ** started    [MsgId: MMSG-205180]
-t=00008575ms: ** 1: Navigate to 54.154.227.103:3001 ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Start" ended with a "Pass" status (Duration: 4.1870).
+t=00002243ms: ** 1: Navigate to "52.208.180.182:3001" ** started    [MsgId: MMSG-205180]
+t=00005680ms: ** 1: Navigate to 52.208.180.182:3001 ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Start" ended with a "Pass" status (Duration: 3.4430 Wasted Time: 0.2030).
 Notify: Transaction "Sign in Link" started.
-t=00009200ms: ** 2: Click on Sign In link ** started    [MsgId: MMSG-205180]
-t=00010496ms: ** 2: Click on Sign In link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Sign in Link" ended with a "Pass" status (Duration: 1.3460).
-t=00010629ms: ** 3: Sign in ** started    [MsgId: MMSG-205180]
-t=00011413ms: ** 3.1: Click on Username textbox ** started    [MsgId: MMSG-205180]
-t=00012168ms: ** 3.1: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-t=00012706ms: ** 3.2: Type demo1 in Username textbox ** started    [MsgId: MMSG-205180]
-t=00015007ms: ** 3.2: Type demo1 in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-t=00015546ms: ** 3.3: Type ************** in Password passwordbox ** started    [MsgId: MMSG-205180]
-t=00021709ms: ** 3.3: Type ************** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00006204ms: ** 2: Click on Sign In link ** started    [MsgId: MMSG-205180]
+t=00006345ms: ** 2: Click on Sign In link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Sign in Link" ended with a "Pass" status (Duration: 0.1540 Wasted Time: 0.0030).
+t=00006358ms: ** 3: Sign in ** started    [MsgId: MMSG-205180]
+t=00006887ms: ** 3.1: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00008240ms: ** 3.1: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008759ms: ** 3.2: Type demo1 in Username textbox ** started    [MsgId: MMSG-205180]
+t=00011008ms: ** 3.2: Type demo1 in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011534ms: ** 3.3: Type ************** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00016801ms: ** 3.3: Type ************** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
 Notify: Transaction "Sign in" started.
-t=00022265ms: ** 3.4: Click on Sign in button ** started    [MsgId: MMSG-205180]
-t=00024048ms: ** 3.4: Click on Sign in button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Sign in" ended with a "Pass" status (Duration: 1.8340 Wasted Time: 0.0430).
-t=00024124ms: ** 3: Sign in ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-t=00024673ms: ** 4: Click on Articles button ** started    [MsgId: MMSG-205180]
-t=00026352ms: ** 4: Click on Articles button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00017316ms: ** 3.4: Click on Sign in button ** started    [MsgId: MMSG-205180]
+t=00017784ms: ** 3.4: Click on Sign in button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Sign in" ended with a "Pass" status (Duration: 0.4780 Wasted Time: 0.2040).
+t=00017807ms: ** 3: Sign in ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018333ms: ** 4: Click on Articles button ** started    [MsgId: MMSG-205180]
+t=00018486ms: ** 4: Click on Articles button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
 Notify: Transaction "Create article Link" started.
-t=00026896ms: ** 5: Click on Create Article link ** started    [MsgId: MMSG-205180]
-t=00028315ms: ** 5: Click on Create Article link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Create article Link" ended with a "Pass" status (Duration: 1.4600).
-t=00028847ms: ** 6: Click on Title textbox ** started    [MsgId: MMSG-205180]
-t=00029575ms: ** 6: Click on Title textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-t=00030106ms: ** 7: Type TruClientarticle in Title textbox ** started    [MsgId: MMSG-205180]
-t=00037099ms: ** 7: Type TruClientarticle in Title textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-t=00037634ms: ** 8: Type Bladieblabla in Content textbox ** started    [MsgId: MMSG-205180]
-t=00042766ms: ** 8: Type Bladieblabla in Content textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00019005ms: ** 5: Click on Create Article link ** started    [MsgId: MMSG-205180]
+t=00019144ms: ** 5: Click on Create Article link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Create article Link" ended with a "Pass" status (Duration: 0.1590 Wasted Time: 0.0050).
+t=00019671ms: ** 6: Click on Title textbox ** started    [MsgId: MMSG-205180]
+t=00019966ms: ** 6: Click on Title textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00020483ms: ** 7: Type TruClientarticle in Title textbox ** started    [MsgId: MMSG-205180]
+t=00027370ms: ** 7: Type TruClientarticle in Title textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00027909ms: ** 8: Type Bladieblabla in Content textbox ** started    [MsgId: MMSG-205180]
+t=00032399ms: ** 8: Type Bladieblabla in Content textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
 Notify: Transaction "Create Article" started.
-t=00043296ms: ** 9: Click on Create button ** started    [MsgId: MMSG-205180]
-t=00044049ms: ** 9: Click on Create button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Create Article" ended with a "Pass" status (Duration: 0.7860).
-t=00044575ms: ** 10: Click on Articles button ** started    [MsgId: MMSG-205180]
-t=00045566ms: ** 10: Click on Articles button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00032937ms: ** 9: Click on Create button ** started    [MsgId: MMSG-205180]
+t=00033260ms: ** 9: Click on Create button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Create Article" ended with a "Pass" status (Duration: 0.3400 Wasted Time: 0.2030).
+t=00033770ms: ** 10: Click on Articles button ** started    [MsgId: MMSG-205180]
+t=00034253ms: ** 10: Click on Articles button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
 Notify: Transaction "List Articles" started.
-t=00046101ms: ** 11: Click on List Articles link ** started    [MsgId: MMSG-205180]
-t=00056158ms: ** 11: Click on List Articles link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-Notify: Transaction "List Articles" ended with a "Pass" status (Duration: 10.0900).
+t=00034786ms: ** 11: Click on List Articles link ** started    [MsgId: MMSG-205180]
+t=00055325ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055326ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055327ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055328ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055328ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055329ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055330ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055331ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055332ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055332ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055334ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055334ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12928:14
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055394ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+replaceContext@chrome://truclientui/content/ui/sidebar.html:12791:4
+TC_NS.Electors.prototype<._updateContext@chrome://truclientui/content/ui/sidebar.html:12825:1
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12929:3
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055396ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._updateSecondaryData@chrome://truclientui/content/ui/sidebar.html:12738:17
+replaceContext@chrome://truclientui/content/ui/sidebar.html:12791:4
+TC_NS.Electors.prototype<._updateContext@chrome://truclientui/content/ui/sidebar.html:12825:1
+TC_NS.Electors.prototype<._update@chrome://truclientui/content/ui/sidebar.html:12929:3
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12324:4
+TC_NS.Ident.prototype.update@chrome://truclientui/content/ui/sidebar.html:12144:11
+TC_NS.Ident.prototype.updateFromUser@chrome://truclientui/content/ui/sidebar.html:12138:3
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6915:4
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055398ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._evaluate@chrome://truclientui/content/ui/sidebar.html:12902:32
+find@chrome://truclientui/content/ui/sidebar.html:12181:14
+find@chrome://truclientui/content/ui/sidebar.html:12210:1
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12306:3
+TC_NS.Ident.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:12049:14
+TC_NS.TestObject.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:3050:10
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6916:15
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055399ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._evaluate@chrome://truclientui/content/ui/sidebar.html:12902:32
+find@chrome://truclientui/content/ui/sidebar.html:12181:14
+find@chrome://truclientui/content/ui/sidebar.html:12210:1
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12306:3
+TC_NS.Ident.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:12049:14
+TC_NS.TestObject.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:3050:10
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6916:15
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055402ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._evaluate@chrome://truclientui/content/ui/sidebar.html:12902:32
+find@chrome://truclientui/content/ui/sidebar.html:12181:14
+find@chrome://truclientui/content/ui/sidebar.html:12210:1
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12306:3
+TC_NS.Ident.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:12056:10
+TC_NS.TestObject.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:3050:10
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6916:15
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055402ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._evaluate@chrome://truclientui/content/ui/sidebar.html:12902:32
+find@chrome://truclientui/content/ui/sidebar.html:12181:14
+find@chrome://truclientui/content/ui/sidebar.html:12210:1
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12306:3
+TC_NS.Ident.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:12056:10
+TC_NS.TestObject.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:3050:10
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6916:15
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055403ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._evaluate@chrome://truclientui/content/ui/sidebar.html:12902:32
+find@chrome://truclientui/content/ui/sidebar.html:12181:14
+find@chrome://truclientui/content/ui/sidebar.html:12210:1
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12306:3
+TC_NS.Ident.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:12056:10
+TC_NS.TestObject.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:3050:10
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6916:15
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00055404ms: Error -205177: TypeError: this.value is undefined
+.vote@chrome://truclientui/content/ui/sidebar.html:13604:1
+TC_NS.ElectorBase.prototype.vote2@chrome://truclientui/content/ui/sidebar.html:12467:16
+TC_NS.Electors._calcScoreImpl@chrome://truclientui/content/ui/sidebar.html:12579:26
+TC_NS.Electors.prototype<._calcScore@chrome://truclientui/content/ui/sidebar.html:12935:10
+TC_NS.Electors.prototype<._evaluate@chrome://truclientui/content/ui/sidebar.html:12902:32
+find@chrome://truclientui/content/ui/sidebar.html:12181:14
+find@chrome://truclientui/content/ui/sidebar.html:12210:1
+TC_NS.Ident.prototype._evaluateImpl@chrome://truclientui/content/ui/sidebar.html:12306:3
+TC_NS.Ident.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:12056:10
+TC_NS.TestObject.prototype.evaluate@chrome://truclientui/content/ui/sidebar.html:3050:10
+.updateTestObjectFromUser@chrome://truclientui/content/ui/sidebar.html:6916:15
+@chrome://truclientui/content/ui/sidebar.html:6515:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+onEvaluated@chrome://truclientui/content/ui/sidebar.html:38337:7
+onEvaluate@chrome://truclientui/content/ui/sidebar.html:3264:4
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+TC_NS.TestObject.prototype.tryIdentFallback@chrome://truclientui/content/ui/sidebar.html:3272:1
+identTypeFallback@chrome://truclientui/content/ui/sidebar.html:38357:12
+.onFailOnTimeout@chrome://truclientui/content/ui/sidebar.html:38422:7
+.onReadyTimeout@chrome://truclientui/content/ui/sidebar.html:10467:6
+.onReadyStateUpdated@chrome://truclientui/content/ui/sidebar.html:5183:7
+handler@chrome://truclientrre/content/infra/Query.js:51:11
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+.onTestObjectEvaluated@chrome://truclientui/content/ui/sidebar.html:10539:5
+.updateReadyState/dispatchEvaluateTestObject/<.callback@chrome://truclientui/content/ui/sidebar.html:10562:8
+.evaluateTestObject@chrome://truclientui/content/ui/sidebar.html:6904:4
+@chrome://truclientui/content/ui/sidebar.html:6509:4
+window.TC_NS.RuleEngine.dispatch@chrome://truclientrre/content/infra/RuleEngine.js:107:11
+window.TC_NS.Event@chrome://truclientrre/content/infra/Event.js:12:20
+.dispatch@chrome://truclientrre/content/infra/Event.js:25:11
+dispatchEvaluateTestObject@chrome://truclientui/content/ui/sidebar.html:10554:1
+.updateReadyState@chrome://truclientui/content/ui/sidebar.html:10591:6
+processStep@chrome://truclientui/content/ui/sidebar.html:6303:4
+asyncProcess@chrome://truclientui/content/ui/sidebar.html:6353:6
+
+undefined       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00061679ms: ** 11: Click on List Articles link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "List Articles" ended with a "Pass" status (Duration: 26.9160 Wasted Time: 0.0100).
 Notify: Transaction "Open Article" started.
-t=00056691ms: ** 12: Click on TruClientarticle link ** started    [MsgId: MMSG-205180]
-t=00097411ms: ** 12: Click on TruClientarticle link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Open Article" ended with a "Pass" status (Duration: 40.7650).
-t=00097955ms: ** 13: Click on focusable (1)  ** started    [MsgId: MMSG-205180]
-t=00098298ms: Dialog-Confirm: Are you sure you want to delete?    [MsgId: MMSG-205180]
-t=00099110ms: ** 13: Click on focusable (1)  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00062202ms: ** 12: Click on TruClientarticle link ** started    [MsgId: MMSG-205180]
+t=00083218ms: ** 12: Click on TruClientarticle link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Open Article" ended with a "Pass" status (Duration: 21.0310 Wasted Time: 0.2150).
+t=00083737ms: ** 13: Click on focusable (1)  ** started    [MsgId: MMSG-205180]
+t=00083816ms: Dialog-Confirm: Are you sure you want to delete?    [MsgId: MMSG-205180]
+t=00084032ms: ** 13: Click on focusable (1)  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
 Notify: Transaction "Delete Article" started.
-t=00099642ms: ** 14: Press OK in confirmation dialog ** started    [MsgId: MMSG-205180]
-t=00108765ms: ** 14: Press OK in confirmation dialog ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
-Notify: Transaction "Delete Article" ended with a "Pass" status (Duration: 9.1590).
-t=00109298ms: ** 15: Click on demo1 demo1 button ** started    [MsgId: MMSG-205180]
-t=00148631ms: ** 15: Click on demo1 demo1 button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00084557ms: ** 14: Press OK in confirmation dialog ** started    [MsgId: MMSG-205180]
+t=00084845ms: ** 14: Press OK in confirmation dialog ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Delete Article" ended with a "Pass" status (Duration: 0.3030 Wasted Time: 0.2120).
+t=00087731ms: ** 15: Click on demo1 demo1 button ** started    [MsgId: MMSG-205180]
+t=00089572ms: ** 15: Click on demo1 demo1 button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
 Notify: Transaction "Sign out" started.
-t=00149172ms: ** 16: Click on Signout link ** started    [MsgId: MMSG-205180]
-t=00152289ms: ** 16: Click on Signout link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
-Notify: Transaction "Sign out" ended with a "Pass" status (Duration: 3.1610 Wasted Time: 0.0410).
+t=00090088ms: ** 16: Click on Signout link ** started    [MsgId: MMSG-205180]
+t=00091903ms: ** 16: Click on Signout link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Sign out" ended with a "Pass" status (Duration: 1.8290 Wasted Time: 0.0090).
 Ending iteration 1.
 Ending Vuser...
 Vuser Terminated.
