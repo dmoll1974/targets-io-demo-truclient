@@ -3,14 +3,14 @@ LRpath=C:\Program Files (x86)\HP\LoadRunner\bin\wlrun.exe
 TimeoutDefault=90
 
 [Graphite]
-GraphiteHost=graphite
+GraphiteHost=52.208.180.182
 GraphitePort=2003
 
 [targets-io]
-Host=targetsio
+Host=52.208.180.182
 Port=3000
-ProductName=MEAN
-DashboardName=LOADRUNNER-LOAD
+ProductName=LOADRUNNER
+DashboardName=LOAD
 ProductRelease=1.0
 RampUpPeriod=15
 
