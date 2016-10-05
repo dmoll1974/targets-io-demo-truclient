@@ -5,7 +5,7 @@
 Action()
 {
 	lr_start_transaction("Start");
-	truclient_step("1", "Navigate to '52.208.180.182:3001'", "snapshot=Action_1.inf");
+	truclient_step("1", "Navigate to 'mean:3001'", "snapshot=Action_1.inf");
 	lr_end_transaction("Start",0);
 	lr_start_transaction("Sign in Link");
 	truclient_step("2", "Click on Sign In link", "snapshot=Action_2.inf");
